@@ -43,7 +43,6 @@ html,body{
     border-style: solid;
     border-color:rgb(0,0,125);
 }
-
 .top-url-indicator__icon{
     display: flex;
     height: 4vh;
@@ -102,7 +101,11 @@ html,body{
 
 
 
-
+.top-navigation-menu__option::first-letter {
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
 .top-navigation-menu__option{
     padding: 1vh 1vh 1vh 1vh !important;
     white-space: normal;
