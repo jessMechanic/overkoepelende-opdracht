@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Assets\background.bmp" />
+    <None Include="wwwroot\Assets\icon.png" />
+    <None Include="wwwroot\Assets\ProfilePicture.png" />
+    <None Include="wwwroot\Assets\Sprite-0001.png" />
+    <None Include="wwwroot\StyleSheets\ProfilePageSheet.css" />
+    <None Include="wwwroot\StyleSheets\StyleSheet.css" />
+  </ItemGroup>
+
+</Project>
