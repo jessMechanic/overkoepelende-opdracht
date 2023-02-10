@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Views\Shared\_Layout.cshtml.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\Assets\background.bmp" />
     <None Include="wwwroot\Assets\icon.png" />
     <None Include="wwwroot\Assets\ProfilePicture.png" />

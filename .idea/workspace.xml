@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1e8db68-a952-4fbf-9168-15e3b9aa01ce" name="Changes" comment="" />
+    <list default="true" id="e1e8db68-a952-4fbf-9168-15e3b9aa01ce" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/setup.metadata.v5.2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/setup.metadata.v5.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/setup.projects.v5.2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/setup.projects.v5.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Setup/FileContentIndex/12b8f673-ac57-409e-86a6-9c81b5650b5b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Setup/FileContentIndex/67c71001-0879-4d6b-8173-de6dfb24cdf3.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Setup/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Setup/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Setup/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Setup/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/CardGame.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/CardGame.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/Views/Home/UserProfile.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/Views/Home/UserProfile.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/ref/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/ref/CardGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/refint/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/refint/CardGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/scopedcss/projectbundle/CardGame.bundle.scp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets/msbuild.CardGame.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets/msbuild.CardGame.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/wwwroot/StyleSheets/ProfilePageSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/wwwroot/StyleSheets/ProfilePageSheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/wwwroot/StyleSheets/StyleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/wwwroot/StyleSheets/StyleSheet.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,14 +45,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Stijn/OneDrive/opdracht",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,6 +65,7 @@
       <workItem from="1675978862406" duration="160000" />
       <workItem from="1676028882265" duration="100000" />
       <workItem from="1676028997062" duration="30000" />
+      <workItem from="1676032671615" duration="76000" />
     </task>
     <servers />
   </component>

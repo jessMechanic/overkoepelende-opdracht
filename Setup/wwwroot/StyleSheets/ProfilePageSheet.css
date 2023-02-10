@@ -1,7 +1,6 @@
 /*mobile version*/
 body{
     background: #c0c0c0;
-    overflow-y: scroll;!important;
 }
 .page {
     display: flex;

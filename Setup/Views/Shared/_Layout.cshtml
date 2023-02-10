@@ -7,12 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cards Without Common Sense</title>
 
-    <link rel="stylesheet" href="StyleSheets/StyleSheet.css">
+    <link rel="stylesheet" href="~/StyleSheets/StyleSheet.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+    <script defer src="~/js/gdpr.js"></script>
 </head>
 <body>
     <div class="top-url-indicator">
-        <img class="top-url-indicator__icon" src="Assets/icon.png">
+        <img class="top-url-indicator__icon" src="~/Assets/icon.png">
         <div class="top-url-indicator__url">CardsWithoutCommonSense</div>
 
         <div class="top-url-indicator__window-icons">
@@ -31,9 +32,40 @@
     </nav>
 
 
-    <main role="main" class="pb-3">
+    <main role="main" class="MainBody">
         @RenderBody()
     </main>
+
+
+    <section class="gdpr-consent hide">
+        <div class="gdpr-consent__window-title">
+           
+            <div class="top-url-indicator__url">Accept cookies ?</div>
+
+            <div class="top-url-indicator__window-icons">
+                <div class="top-url-indicator__window-icon"> X </div>
+            </div>
+        </div>
+
+        <div class="gdpr-consent__description">
+            <img class="gdpr-consent__description__icon" src="~/Assets/error.png">
+            <p class="gdpr-consent__description__message">
+                We use cookies to personalize your experience
+                do you accept ?
+            </p>
+        </div>
+
+        <div class="gdpr-consent__choice">
+            <div class="gdpr-content-button">
+                <button class="gdpr-consent__button--accept">Ja, natuurlijk</button>
+            </div>
+            <div class="gdpr-content-button">
+                <button class="gdpr-consent__button--reject">Neu, misschien later</button>
+            </div>
+        </div>
+
+
+    </section>
 
 
 

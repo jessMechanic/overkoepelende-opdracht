@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zix52YVOOoITDgCqHDhOhZtM2LOOwoWlGQ1jt2KTx74=",
+  "Hash": "fftA+OHpsMfG35AQIXvTF4LINlSnbo3eYB+Zrq56H0E=",
   "Source": "CardGame",
   "BasePath": "_content/CardGame",
   "Mode": "Default",
@@ -17,40 +17,6 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\obj\\Debug\\net7.0\\scopedcss\\bundle\\CardGame.styles.css",
-      "SourceId": "CardGame",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/CardGame",
-      "RelativePath": "CardGame.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\obj\\Debug\\net7.0\\scopedcss\\bundle\\CardGame.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CardGame.bundle.scp.css",
-      "SourceId": "CardGame",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/CardGame",
-      "RelativePath": "CardGame.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CardGame.bundle.scp.css"
-    },
-    {
       "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\background.bmp",
       "SourceId": "CardGame",
       "SourceType": "Discovered",
@@ -66,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Assets\\background.bmp"
+    },
+    {
+      "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\error.png",
+      "SourceId": "CardGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\",
+      "BasePath": "_content/CardGame",
+      "RelativePath": "Assets/error.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\error.png"
     },
     {
       "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\icon.png",
@@ -134,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\gdpr.js",
+      "SourceId": "CardGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\",
+      "BasePath": "_content/CardGame",
+      "RelativePath": "js/gdpr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\gdpr.js"
     },
     {
       "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\site.js",

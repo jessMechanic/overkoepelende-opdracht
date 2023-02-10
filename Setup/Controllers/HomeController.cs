@@ -27,6 +27,12 @@ namespace Setup.Controllers
             return View();
         }
 
+        public IActionResult UserProfile()
+        {
+            UpdatePageViewCookie();
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

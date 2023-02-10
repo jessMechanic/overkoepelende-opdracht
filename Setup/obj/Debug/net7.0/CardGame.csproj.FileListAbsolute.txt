@@ -21,9 +21,7 @@ C:\Users\Stijn\OneDrive\opdracht\Setup\obj\Debug\net7.0\staticwebassets\msbuild.
 C:\Users\Stijn\OneDrive\opdracht\Setup\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\Stijn\OneDrive\opdracht\Setup\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\Stijn\OneDrive\opdracht\Setup\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\Stijn\OneDrive\opdracht\Setup\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Stijn\OneDrive\opdracht\Setup\obj\Debug\net7.0\scopedcss\bundle\CardGame.styles.css
-C:\Users\Stijn\OneDrive\opdracht\Setup\obj\Debug\net7.0\scopedcss\projectbundle\CardGame.bundle.scp.css
 C:\Users\Stijn\OneDrive\opdracht\Setup\obj\Debug\net7.0\CardGame.dll
 C:\Users\Stijn\OneDrive\opdracht\Setup\obj\Debug\net7.0\refint\CardGame.dll
 C:\Users\Stijn\OneDrive\opdracht\Setup\obj\Debug\net7.0\CardGame.pdb

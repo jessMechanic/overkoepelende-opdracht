@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CardGame.bundle.scp.css",
-      "PackagePath": "staticwebassets\\CardGame.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\ProfilePicture.png",
       "PackagePath": "staticwebassets\\Assets\\ProfilePicture.png"
     },
@@ -15,6 +11,10 @@
     {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\background.bmp",
       "PackagePath": "staticwebassets\\Assets\\background.bmp"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\error.png",
+      "PackagePath": "staticwebassets\\Assets\\error.png"
     },
     {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\icon.png",
@@ -31,6 +31,10 @@
     {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\gdpr.js",
+      "PackagePath": "staticwebassets\\js\\gdpr.js"
     },
     {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\site.js",
