@@ -5,6 +5,94 @@
   <title>Title</title>
 </head>
 <body>
+<style>
+
+
+.textinput-box__textarea{
+  border-style: hidden;
+  background-color: #eee;
+  padding: 0;
+  float:left;
+
+
+  overflow: auto;
+  outline: none;
+  height: available;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+resize: none;
+
+}
+.textinput-box{
+  display: flex;
+  border: solid rebeccapurple;
+  width:25vw;
+  resize: both;
+}
+.textinput-iconcount{
+  background-color: #eee;
+  float: left;
+  align-self: flex-end;
+  text-align: right;
+  padding-top: 15px;
+
+}
+
+</style>
+<script src="../js/contactPage.js" defer></script>
+
+
+
+<body>
+
+<div class="page">
+  <section class="contact">
+
+    <h1>Contact</h1>
+
+    <form action="" method="post" class="form-contactpagina">
+
+      <div class="form-contactpagina__inputelement fx-col">
+        <label for="title">Title: </label>
+        <input type="text" name="title" id="title" maxlength="200" required>
+      </div>
+
+      <div class="form-contactpagina__inputelement fx-col">
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required>
+      </div>
+
+      <div class="form-contactpagina__inputelement fx-col">
+        <label for="message">Message: </label>
+        <div class="textinput-box">
+          <textarea class="textinput-box__textarea" name="message" id="message" maxlength="20" required></textarea>
+          <div class="textinput-iconcount">0/100</div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <div class="form-contactpagina__inputelement">
+        <input type="submit" value="send">
+      </div>
+
+
+
+      /*student uitwerking*/
+
+
+    </form>
+
+
+  </section>
+</div>
+
+</body>
 
 </body>
 </html>

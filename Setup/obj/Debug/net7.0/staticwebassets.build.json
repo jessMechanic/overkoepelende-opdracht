@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s3qQ8x0cpx3Rlql2UPdhSYmAkcwz4ZXkaK8xSOdPKnM=",
+  "Hash": "mBrLrSrhhs8aLvgoKFdqcYgu9VovcYZB+vUjpNxCJoc=",
   "Source": "CardGame",
   "BasePath": "_content/CardGame",
   "Mode": "Default",
@@ -1137,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\StyleSheets\\contactpageStyle.css",
+      "SourceId": "CardGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\",
+      "BasePath": "_content/CardGame",
+      "RelativePath": "StyleSheets/contactpageStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheets\\contactpageStyle.css"
     },
     {
       "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\StyleSheets\\ProfilePageSheet.css",

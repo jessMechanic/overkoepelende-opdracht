@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\StyleSheets\\StyleSheet.css"
     },
     {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\StyleSheets\\contactpageStyle.css",
+      "PackagePath": "staticwebassets\\StyleSheets\\contactpageStyle.css"
+    },
+    {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

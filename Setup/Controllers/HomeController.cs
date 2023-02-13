@@ -27,6 +27,12 @@ namespace Setup.Controllers
             return View();
         }
 
+        public IActionResult contactpage()
+        {
+            UpdatePageViewCookie();
+            return View();
+        }
+
         public IActionResult UserProfile()
         {
             UpdatePageViewCookie();
