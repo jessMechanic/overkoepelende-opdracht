@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fftA+OHpsMfG35AQIXvTF4LINlSnbo3eYB+Zrq56H0E=",
+  "Hash": "s3qQ8x0cpx3Rlql2UPdhSYmAkcwz4ZXkaK8xSOdPKnM=",
   "Source": "CardGame",
   "BasePath": "_content/CardGame",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Assets\\error.png"
+    },
+    {
+      "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\error1.png",
+      "SourceId": "CardGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\",
+      "BasePath": "_content/CardGame",
+      "RelativePath": "Assets/error1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\error1.png"
     },
     {
       "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\icon.png",
