@@ -1,0 +1,35 @@
+html {
+    --CardSize: 10;
+    --TopOffset: 0;
+    --TotalCards: 10;
+    --CardIndex: 1;
+
+    --LeftOffset:0;
+
+}
+
+.card {
+    left: 90vw;
+
+
+    background-size:cover;
+    background-image: url("card.jpg");
+
+    box-shadow: 0 2px 4px 2px #000000;
+    position: absolute;
+
+    margin: auto;
+    transition: left .5s ,rotate .5s;
+
+
+    border-radius: calc(var(--CardSize) * 0.2vh);
+    width: calc(var(--CardSize) * 2vh);
+    height: calc(var(--CardSize) * 3vh);
+    left: calc(40vw + (((var(--CardIndex) - (var(--TotalCards)) / 2)) * 2vw + var(--LeftOffset) * var(--CardSize) * 2vh));
+
+
+    top: calc(60vh + (var(--TopOffset) / var(--TotalCards)* 0.1vh));
+
+    rotate: clamp(-20deg, calc((var(--CardIndex) - (var(--TotalCards)) / 2) * 1deg), 20deg);
+
+}
