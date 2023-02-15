@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CardGame.Models;
+using Microsoft.AspNetCore.Mvc;
 using Setup.Models;
 using System.Diagnostics;
+
+
 
 namespace Setup.Controllers
 {
@@ -18,7 +21,8 @@ namespace Setup.Controllers
         public IActionResult Index()
         {
            UpdatePageViewCookie();
-            return View( new DataContext(){views = GetPageViewCookie()} );
+            addTest();
+            return View( new DataContext(){views = GetPageViewCookie(),TestArray = test() } );
         }
 
         public IActionResult Privacy()
@@ -61,5 +65,22 @@ namespace Setup.Controllers
 
             return int.Parse(currentCookieValue);
         }
+
+
+        public void addTest()
+        {
+            using var db = new userDBModel();
+            db.Add(new User { UserName = "bepis" });
+            db.SaveChanges();
+        }
+
+         public String[] test()
+        {
+            using var db = new userDBModel();
+            return db.Users.OrderBy(b => b.UserId).Select(user => user.UserName).ToArray();
+
+            
+        }
+
     }
 }

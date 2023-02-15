@@ -23,6 +23,39 @@
     flex-direction: column;
 }
 
+
+
+        .textinput-box__textarea {
+            border-style: hidden;
+            background-color: #eee;
+            padding: 0;
+            float: left;
+            overflow: auto;
+            outline: none;
+            height: available;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            resize: none;
+        }
+
+        .textinput-box {
+            display: flex;
+            border: solid rebeccapurple;
+            width: 25vw;
+            resize: both;
+        }
+
+        .textinput-iconcount {
+            background-color: #eee;
+            float: left;
+            align-self: flex-end;
+            text-align: right;
+            padding-top: 15px;
+        }
+
+
+
 @media only screen and (min-width: 800px) {
 
 }
