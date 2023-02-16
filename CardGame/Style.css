@@ -26,8 +26,6 @@ html {
     width: calc(var(--CardSize) * 2vh);
     height: calc(var(--CardSize) * 3vh);
     left: calc(40vw + (((var(--CardIndex) - (var(--TotalCards)) / 2)) * 2vw + var(--LeftOffset) * var(--CardSize) * 2vh));
-
-
     top: calc(60vh + (var(--TopOffset) / var(--TotalCards)* 0.1vh));
 
     rotate: clamp(-20deg, calc((var(--CardIndex) - (var(--TotalCards)) / 2) * 1deg), 20deg);

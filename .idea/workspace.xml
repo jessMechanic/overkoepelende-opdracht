@@ -5,23 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1e8db68-a952-4fbf-9168-15e3b9aa01ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CardGame/Pages/ContactPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CardGame/js/contactPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/setup.metadata.v5.2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/setup.metadata.v5.2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/setup.projects.v5.2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/setup.projects.v5.2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Setup/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Setup/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Setup/FileContentIndex/230e93d9-1497-4868-813b-e847aecafe58.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Setup/FileContentIndex/ec7f3766-3b49-476f-a478-375b3f395f7e.vsidx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Setup/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Setup/v17/.futdcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Setup/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Setup/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/Views/Home/UserProfile.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/Views/Home/UserProfile.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CardGame/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CardGame/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/Views/Home/contactpage.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/Views/Home/contactpage.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/project.razor.vs.json" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/project.razor.vs.json" afterDir="false" />
@@ -31,6 +25,7 @@
       <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets/msbuild.CardGame.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets/msbuild.CardGame.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Setup/wwwroot/StyleSheets/contactpageStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/wwwroot/StyleSheets/contactpageStyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +51,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Stijn/OneDrive/opdracht",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Stijn/OneDrive/opdracht&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,6 +79,8 @@
       <workItem from="1676032671615" duration="76000" />
       <workItem from="1676288192430" duration="6000" />
       <workItem from="1676295005502" duration="6293000" />
+      <workItem from="1676473319701" duration="594000" />
+      <workItem from="1676539740814" duration="1037000" />
     </task>
     <servers />
   </component>

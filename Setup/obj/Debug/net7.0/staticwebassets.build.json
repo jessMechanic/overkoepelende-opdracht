@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mBrLrSrhhs8aLvgoKFdqcYgu9VovcYZB+vUjpNxCJoc=",
+  "Hash": "CW0O22aSvCzE+d63zwsZcpsO8TNjQjB9nRAGEToXT4M=",
   "Source": "CardGame",
   "BasePath": "_content/CardGame",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\contactPage.js",
+      "SourceId": "CardGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\",
+      "BasePath": "_content/CardGame",
+      "RelativePath": "js/contactPage.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\contactPage.js"
     },
     {
       "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\gdpr.js",

@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\contactPage.js",
+      "PackagePath": "staticwebassets\\js\\contactPage.js"
+    },
+    {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\gdpr.js",
       "PackagePath": "staticwebassets\\js\\gdpr.js"
     },
