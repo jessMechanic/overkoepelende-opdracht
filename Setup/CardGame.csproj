@@ -7,16 +7,36 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="web.config" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Views\Shared\_Layout.cshtml.css" />
   </ItemGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="web.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="web.config" />
     <None Include="wwwroot\Assets\background.bmp" />
     <None Include="wwwroot\Assets\icon.png" />
     <None Include="wwwroot\Assets\ProfilePicture.png" />
     <None Include="wwwroot\Assets\Sprite-0001.png" />
     <None Include="wwwroot\StyleSheets\ProfilePageSheet.css" />
     <None Include="wwwroot\StyleSheets\StyleSheet.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.4" />
   </ItemGroup>
 
 </Project>

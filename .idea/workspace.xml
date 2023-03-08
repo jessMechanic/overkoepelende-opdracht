@@ -9,23 +9,8 @@
       <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/setup.metadata.v5.2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/setup.metadata.v5.2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/setup.projects.v5.2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/setup.projects.v5.2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Setup/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Setup/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Setup/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Setup/v17/.futdcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Setup/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Setup/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CardGame/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CardGame/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/Views/Home/contactpage.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/Views/Home/contactpage.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/bin/Debug/net7.0/CardGame.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/CardGame.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/project.razor.vs.json" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/project.razor.vs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/ref/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/ref/CardGame.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/refint/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/refint/CardGame.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets/msbuild.CardGame.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/obj/Debug/net7.0/staticwebassets/msbuild.CardGame.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Setup/wwwroot/StyleSheets/contactpageStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Setup/wwwroot/StyleSheets/contactpageStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CardGame/CardJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/CardGame/CardJS.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +66,7 @@
       <workItem from="1676295005502" duration="6293000" />
       <workItem from="1676473319701" duration="594000" />
       <workItem from="1676539740814" duration="1037000" />
+      <workItem from="1676560348554" duration="817000" />
     </task>
     <servers />
   </component>

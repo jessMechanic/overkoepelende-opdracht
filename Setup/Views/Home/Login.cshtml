@@ -1,0 +1,17 @@
+﻿
+@{
+}
+<label>userId</label>
+<input id="text" type="text" />
+
+
+<label>login</label>
+<input id="submit" type="button" />
+<script>
+    document.getElementById("submit").addEventListener("click",function(){
+        let value = document.getElementById("text").value;
+        sessionStorage.setItem("PlayerId", value);
+    })
+
+
+</script>

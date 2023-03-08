@@ -1,0 +1,43 @@
+.matches-screen{
+
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+
+
+}
+.matches-screen__border{
+    padding: 2%;
+    float: left;
+    border-style: solid;
+    border-left-color: white;
+    border-bottom-color:white ;
+
+    border-right-image:  #808080 ;
+    border-top-color:  #808080 ;
+
+}
+.matches-screen_divider{
+    height: 80vw;
+    border: black 1px solid;
+    float: left;
+}
+.matches-screen__new-match{
+    width: 39%;
+    float: left;
+    margin: 5%;
+}
+.matches-screen__join-match{
+    width: 39%;
+    float: left;
+    margin: 5%;
+}
+.new-match-name{
+    float:left;
+}
+.new-match-password{
+    float:left;
+}
+.match-label{
+    width: 50%;
+}
