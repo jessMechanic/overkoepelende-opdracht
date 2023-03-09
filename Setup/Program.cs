@@ -1,9 +1,14 @@
 using CardGame.Controllers;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using CardGame.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("CardGameContextConnection") ?? throw new InvalidOperationException("Connection string 'CardGameContextConnection' not found.");
+
+builder.Services.AddDbContext<IdentityDBContext>(options => options.UseSqlite(connectionString));
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<IdentityDBContext>();
 
 
 // Add services to the container.
