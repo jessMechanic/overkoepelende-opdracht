@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3cc08b31-7420-452a-9231-4bf7770a30b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Pages.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matches.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Setup/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Setup/.idea/Setup.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Setup/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Setup/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Setup/wwwroot/StyleSheets/MatchesSheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/ProjectEvaluation/setup.metadata.v5.2" beforeDir="false" afterPath="$PROJECT_DIR$/../../.vs/ProjectEvaluation/setup.metadata.v5.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/ProjectEvaluation/setup.projects.v5.2" beforeDir="false" afterPath="$PROJECT_DIR$/../../.vs/ProjectEvaluation/setup.projects.v5.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/Setup/DesignTimeBuild/.dtbcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/Setup/FileContentIndex/4b21e4be-720f-4eba-99ae-88e3ad96b204.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/Setup/config/applicationhost.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/Setup/v17/.futdcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/Setup/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CardJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CardJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/CardGame.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/CardGame.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/Views/Home/contactpage.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/Views/Home/contactpage.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/bin/Debug/net7.0/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/bin/Debug/net7.0/CardGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/bin/Debug/net7.0/CardGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/bin/Debug/net7.0/CardGame.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/bin/Debug/net7.0/CardGame.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/bin/Debug/net7.0/CardGame.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/CardGame.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/CardGame.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/CardGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/CardGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/CardGame.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/project.razor.vs.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/project.razor.vs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/ref/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/ref/CardGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/refint/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/refint/CardGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/staticwebassets/msbuild.CardGame.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/obj/Debug/net7.0/staticwebassets/msbuild.CardGame.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Setup/wwwroot/js/contactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Setup/wwwroot/js/contactPage.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2M0gpciP5ipd0Lm57B4Zddw5eBB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cc08b31-7420-452a-9231-4bf7770a30b7" name="Changes" comment="" />
+      <created>1676910097720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676910097720</updated>
+      <workItem from="1676910099350" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

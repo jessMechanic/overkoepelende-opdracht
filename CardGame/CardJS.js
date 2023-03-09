@@ -20,9 +20,10 @@ function Hover(event) {
     let Cards = document.getElementsByClassName(CardClass)
 
 
+
     for (let i = 0; i < Cards.length; i++) {
         let Card = Cards[i];
-        Card.style.setProperty('--LeftOffset', (i == index ? 0 : i > index ? 0.8 : -0.8).toString());
+        Card.style.setProperty('--LeftOffset', (i == index ? 0 : i > index ? 0.8 : -0.8 ).toString());
 
 
     }

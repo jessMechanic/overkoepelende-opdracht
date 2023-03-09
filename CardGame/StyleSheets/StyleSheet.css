@@ -95,8 +95,13 @@ html,body{
     padding: 0;
     margin:0;
     float: left;
+    border-style: solid;
+    border-left-color: white;
+    border-bottom-color: white;
+    border-right-color: #808080;
+    border-top-color: #808080;
+    background: #c0c0c0;
 
-    background: #c0c0c0   ;
 }
 
 
