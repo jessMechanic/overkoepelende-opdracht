@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\Assets\\icon.png"
     },
     {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\StyleSheets\\MatchesSheet.css",
+      "PackagePath": "staticwebassets\\StyleSheets\\MatchesSheet.css"
+    },
+    {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\StyleSheets\\ProfilePageSheet.css",
       "PackagePath": "staticwebassets\\StyleSheets\\ProfilePageSheet.css"
     },
@@ -43,6 +47,14 @@
     {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\Match.js",
       "PackagePath": "staticwebassets\\js\\Match.js"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\Matches.js",
+      "PackagePath": "staticwebassets\\js\\Matches.js"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\Modules\\PlayerAuthentication.js",
+      "PackagePath": "staticwebassets\\js\\Modules\\PlayerAuthentication.js"
     },
     {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\contactPage.js",

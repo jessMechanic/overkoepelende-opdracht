@@ -7,13 +7,15 @@ namespace Setup.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+     
 
         private const string PageViews = "PageViews";
-        public HomeController(ILogger<HomeController> logger)
+        private readonly ILogger<HomeController> _logger;
+        private UserManager<IdentityUser> _userManager;
+        public HomeController(ILogger<HomeController> logger, UserManager<IdentityUser> userManager)
         {
             _logger = logger;
-           
+            _userManager = userManager;
         }
 
         public IActionResult Index()
@@ -53,7 +55,7 @@ namespace Setup.Controllers
         public IActionResult Login()
         {
             ViewData["Title"] = "Log in";
-            return View("Areas/Identity/Pages/Account/Login.cshtml");
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

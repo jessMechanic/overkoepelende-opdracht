@@ -26,6 +26,10 @@ body {
     border-top-color: #808080;
 }
 
+.hidden{
+    display:none;
+}
+
 .vl {
     border-left: 3px solid black;
     height: 4vh;

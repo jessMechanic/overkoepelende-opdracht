@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MamS8OYk7IuI4zf42Be0kUXCGmn27qvJVDoHrk9eXrI=",
+  "Hash": "ZAuPMFneflouTSutnvDTtRPnp7fBMFmFUQHIOjkNtbk=",
   "Source": "CardGame",
   "BasePath": "_content/CardGame",
   "Mode": "Default",
@@ -1207,6 +1207,40 @@
       "OriginalItemSpec": "wwwroot\\js\\Match.js"
     },
     {
+      "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\Matches.js",
+      "SourceId": "CardGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\",
+      "BasePath": "_content/CardGame",
+      "RelativePath": "js/Matches.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Matches.js"
+    },
+    {
+      "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\Modules\\PlayerAuthentication.js",
+      "SourceId": "CardGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\",
+      "BasePath": "_content/CardGame",
+      "RelativePath": "js/Modules/PlayerAuthentication.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Modules\\PlayerAuthentication.js"
+    },
+    {
       "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
       "SourceId": "CardGame",
       "SourceType": "Discovered",
@@ -2242,6 +2276,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\StyleSheets\\contactpageStyle.css"
+    },
+    {
+      "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\StyleSheets\\MatchesSheet.css",
+      "SourceId": "CardGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\",
+      "BasePath": "_content/CardGame",
+      "RelativePath": "StyleSheets/MatchesSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheets\\MatchesSheet.css"
     },
     {
       "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\StyleSheets\\ProfilePageSheet.css",
