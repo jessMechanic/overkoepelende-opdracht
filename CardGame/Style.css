@@ -31,3 +31,67 @@ html {
     rotate: clamp(-20deg, calc((var(--CardIndex) - (var(--TotalCards)) / 2) * 1deg), 20deg);
 
 }
+.card-element{
+    border: black 0.6vw solid;
+    display: block;
+    border-radius: 1vw;
+    border-bottom-width: 2vw ;
+    width: fit-content;
+    height: 20vw;
+
+
+
+}
+.card-element * {
+    background-color:  rgb(173,85,81);
+
+
+}
+.card-element * .element-container{
+    display: inline-grid;
+    background-color: #6A2A1B;
+    margin: auto;
+   padding : 0.2vw 0.3vw;
+    height: 20vw;
+
+
+}
+.card-element * img{
+    background-color: #5c6166;
+    border-color: var(--color);
+    border-style: solid;
+    border-width: 0 0.2vw 0 0.2vw;
+    object-fit: cover;
+    width: 13vw;
+    margin: 0 0.2vw;
+    height: 8vw;
+}
+.card-element * .title-cont{
+    border-width: 0.2vw;
+    border-style: solid;
+    border-top-left-radius: 1vw 5vw;
+    border-bottom-left-radius: 1vw 5vw;
+
+    border-top-right-radius: 1vw 5vw;
+    border-bottom-right-radius: 1vw 5vw;
+    border-color: var(--color);
+
+
+}
+.card-element * h1{
+
+    font-size: 1.3vw;
+    padding: 0 1vw 0 1vw;
+    margin: 0 auto 0 auto;
+
+ }
+.card-element * p{
+    font-size: 1vw;
+    border-color: var(--color);
+    border-style: solid;
+    border-width: 0 0.2vw 0 0.2vw;
+    margin: 0 0.2vw;
+    padding: 0.1vw;
+    display: block;
+    height: 8.5vw;
+}
