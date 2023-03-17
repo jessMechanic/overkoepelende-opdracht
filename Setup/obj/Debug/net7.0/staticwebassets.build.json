@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZAuPMFneflouTSutnvDTtRPnp7fBMFmFUQHIOjkNtbk=",
+  "Hash": "YId0tQ2LaiXKSWcRhRyBN5j/HNZ+JZaJwy7l650i4Aw=",
   "Source": "CardGame",
   "BasePath": "_content/CardGame",
   "Mode": "Default",
@@ -1239,40 +1239,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Modules\\PlayerAuthentication.js"
-    },
-    {
-      "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
-      "SourceId": "CardGame",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\",
-      "BasePath": "_content/CardGame",
-      "RelativePath": "js/signalr/dist/browser/signalr.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\signalr\\dist\\browser\\signalr.js"
-    },
-    {
-      "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
-      "SourceId": "CardGame",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\",
-      "BasePath": "_content/CardGame",
-      "RelativePath": "js/signalr/dist/browser/signalr.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js"
     },
     {
       "Identity": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\site.js",

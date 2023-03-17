@@ -1,9 +1,9 @@
-﻿namespace CardsWithoutCommonSense.Controllers.MatchFolder.ResponseJson
+﻿namespace CardGame.Controllers.MatchFolder.ResponseJson
 {
-    public class PlayCardMessage : ClientMessage
+    public class PlayCardMessage : IClientMessage
     {
-        public string RoomId { get ; set ; }
-        public string PlayerId { get; set ; }
+        public Guid RoomId { get ; set ; }
+        public Guid PlayerId { get; set ; }
         public int Card { get; set ; }
 
     }

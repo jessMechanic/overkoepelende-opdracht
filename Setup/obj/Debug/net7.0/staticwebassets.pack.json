@@ -65,14 +65,6 @@
       "PackagePath": "staticwebassets\\js\\gdpr.js"
     },
     {
-      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
-      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.js"
-    },
-    {
-      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
-      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.min.js"
-    },
-    {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

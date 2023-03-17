@@ -1,18 +1,20 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿
 
-namespace CardApi.Models.Matches
+namespace CardGame.Models.Matches
 {
     public enum CardType
     {
-        Attack,
-        Defence
+        creature,
+        Defence,
     }
     public class Card
     {
-        
-        public Guid Id { get; set; }
         public string Name { get; set; }
+        public string? Description { get; set; }
+
+        public int Health { get; set; }
+        public int Damage { get; set; }
+        public int  Effects { get; set; }
         public CardType Type { get; set; }
     }
 }

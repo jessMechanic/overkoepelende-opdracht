@@ -1,8 +1,8 @@
 ﻿using CardApi.Models.Matches;
-using CardsWithoutCommonSense.Models.Matches;
+using CardGame.Models.Matches;
 using System;
 
-namespace CardsWithoutCommonSense.Controllers.MatchFolder
+namespace CardGame.Controllers.MatchFolder
 {
     public static class CardGenerator
     {
