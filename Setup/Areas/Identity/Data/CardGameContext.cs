@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CardGame.Data;
 
-public class IdentityDBContext : IdentityDbContext<IdentityUser>
+public class CardGameContext : IdentityDbContext<IdentityUser>
 {
-    public IdentityDBContext(DbContextOptions<IdentityDBContext> options)
+    public CardGameContext(DbContextOptions<CardGameContext> options)
         : base(options)
     {
     }

@@ -12,20 +12,25 @@ namespace CardGame.Models.Matches
         MatchPlayer player1 { get; set; }
         MatchPlayer player2 { get; set; }
         List<Card> cards;
+
+        public bool FirstPlayed;
+        public bool AllowDraw;
         public Match(Guid player1Id, Guid player2Id)
         {
             cards = new();
             player1 = new(player1Id);
             player2 = new(player2Id);
-
+            FirstPlayed = true;
+            AllowDraw = false;
 
         }
-        public Card? GetCard(int card) {
-             return cards[card];
+        public Card? GetCard(int card)
+        {
+            return cards[card];
         }
         public void AddPlayer2(Guid id)
         {
-             player2= new(id);
+            player2 = new(id);
         }
 
         public MatchPlayer? getPlayer(Guid id)
@@ -43,22 +48,31 @@ namespace CardGame.Models.Matches
             {
                 return -1;
             }
-            cards.Add(CardGenerator.GenerateCard());
-            player.Cards.Push(cards.Count);
-            return cards.Count;
+            Card card = CardGenerator.GenerateCard();
+            int index = cards.Count;
+
+            card.Index = index - 1;
+            cards.Add(card);
+            player.Hand.Add(index);
+            return cards.Count - 1;
 
         }
 
-        public void PlayCard(Guid playerId,  int Card)
+        public bool PlayCard(Guid playerId, int Card)
         {
             MatchPlayer player = getPlayer(playerId);
-            if (player == null) return;
-
+            if (player == null) { Console.WriteLine("playeer doesnt excist"); return false; }
+            if (player.Ready) { return false; }
+           if(player.Cards.Count > 5) { return false; }
             if (player.Hand.Contains(Card))
             {
                 player.Hand.Remove(Card);
-                player.Cards.Push(Card);
+                player.Cards.Push(Card);    
+                FirstPlayed = !FirstPlayed;
+                return true;
             }
+            Console.WriteLine("didnt contain in hand " + Card + player.Hand.Count);
+             return false;
         }
         public void PlayRound()
         {
@@ -96,7 +110,7 @@ namespace CardGame.Models.Matches
 
         public void RemoveDeadCards(MatchPlayer target)
         {
-            while (cards.ElementAt(target.Cards.Peek()).Health < 0)  { target.Cards.Pop(); };
+            while (cards.ElementAt(target.Cards.Peek()).Health < 0) { target.Cards.Pop(); };
         }
         public void DealDamage(Guid target, int damage)
         {

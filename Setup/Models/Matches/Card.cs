@@ -16,5 +16,6 @@ namespace CardGame.Models.Matches
         public int Damage { get; set; }
         public int  Effects { get; set; }
         public CardType Type { get; set; }
+        public int Index { get; set; }
     }
 }

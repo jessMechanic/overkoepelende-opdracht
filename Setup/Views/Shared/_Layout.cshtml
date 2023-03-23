@@ -1,4 +1,10 @@
-﻿<!doctype html>
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -74,5 +80,12 @@
         <div class="footer-column">Column two</div>
         <div class="footer-column">Column three</div>
     </footer>
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <input type="hidden" id="User_id" value="@UserManager.GetUserId(User)"/>
+    }
+
+
+    @RenderSection("Scripts",false)
 </body>
 </html>

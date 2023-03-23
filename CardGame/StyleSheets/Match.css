@@ -1,0 +1,150 @@
+body {
+    display: block;
+overflow-y: hidden;
+}
+.background-image{
+    object-fit: fill;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.player {
+    top: 74vh;
+    left: 69vw;
+    z-index: 20;
+}
+.player_cards{
+    margin-left: 2.5vw;
+}
+.opponent_cards{
+    margin-right: 1vw;
+}
+.middel_row{
+    width: 100%;
+    height: 40%;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    margin-top: 20%;
+}
+.play_field{
+    position: absolute;
+    z-index: 10;
+    left: 9vw;
+    top: 10vw;
+    width: 82.2vw;
+    height: 26.6vw;
+    background-image: url("../Assets/playingField_ui.png");
+    background-size: cover;
+}
+.play_field  img{
+    width: 80vw;
+}
+.player_info{
+    font-family: "Press Start 2P";
+    color: white;
+    background-image: url("../Assets/playerProf_ui.png");
+    background-size: cover;
+    width: 27vw;
+    height: 10.8vw;
+    display: block;
+    position: absolute;
+}
+.player_info p {
+    margin: 0.8vw;
+    font-size: 1vw;
+}
+.player_info img{
+    width: 7vw;
+    height: 6vw;
+    margin: 1vw 2vw;
+}
+.bottom_player{
+    width: 100%;
+    height: 30%;
+    background-color: green;
+}
+
+.card-holder{
+    background-image: url("../Assets/Cards_UI.png");
+    background-size: cover;
+    width: 51.4vw;
+    height: 21.4vw;
+    display: block;
+    position: absolute;
+
+    top: 64vh;
+    left: 12vw;
+    z-index: 20;
+}
+
+.card-element{
+    border: black calc(0.6vw * var(--Size)) solid;
+    display: block;
+    border-radius: calc(1vw * var(--Size));
+    border-bottom-width:calc( 2vw* var(--Size)) ;
+    width: fit-content;
+    height:calc( 20vw* var(--Size));
+    margin-top: calc( 13vw* var(--Size));
+
+    margin-right: 1vw;
+    background-color: #fff;
+    position: relative;
+
+}
+.card-element * {
+    background-color:  rgb(173,85,81);
+
+
+}
+.card-element * .element-container{
+    display: inline-grid;
+    background-color: #6A2A1B;
+    margin: calc(0.2vw * var(--Size)) calc(0.3vw * var(--Size));
+    height:calc( 20vw* var(--Size));
+
+
+}
+.card-element * img{
+    background-color: #5c6166;
+    border-color: var(--color);
+    border-style: solid;
+    border-width: 0 calc(0.2vw * var(--Size)) 0 calc(0.2vw * var(--Size));
+    object-fit: cover;
+    width:calc( 13vw* var(--Size));
+    margin: 0 calc(0.2vw * var(--Size));
+    height:calc( 8vw* var(--Size));
+
+}
+.card-element * .title-cont{
+    border-width: 0.2vw;
+    border-style: solid;
+    border-top-left-radius: 1vw 5vw;
+    border-bottom-left-radius: 1vw 5vw;
+
+    border-top-right-radius: 1vw 5vw;
+    border-bottom-right-radius: 1vw 5vw;
+    border-color: var(--color);
+
+
+}
+.card-element * h1{
+
+    font-size: calc( 1.3vw* var(--Size));
+    padding: 0 calc(1vw * var(--Size)) 0 calc(1vw * var(--Size));
+    margin: 0 auto 0 auto;
+
+}
+.card-element * p{
+    font-size: calc( 1vw* var(--Size));
+    border-color: var(--color);
+    border-style: solid;
+    border-width: 0 0.2vw 0 0.2vw;
+    margin: 0 0.2vw;
+    padding: 0.1vw;
+    display: block;
+    height:calc( 8.5vw* var(--Size));
+}
+

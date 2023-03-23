@@ -1,6 +1,6 @@
 ﻿namespace CardGame.Controllers.MatchFolder.ResponseJson
 {
-    public class PlayCardMessage : IClientMessage
+    public class PlayCardMessage : ClientMessage
     {
         public Guid RoomId { get ; set ; }
         public Guid PlayerId { get; set ; }

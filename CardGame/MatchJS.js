@@ -9,7 +9,7 @@ connection.on("ReceiveMessage", function (user, message) {
     try {
         messageObj = JSON.parse(message);
     } catch (e) {
-        return;
+
     }
 
 

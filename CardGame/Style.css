@@ -1,4 +1,6 @@
+
 html {
+    --rs: 0.25rem;
     --CardSize: 10;
     --TopOffset: 0;
     --TotalCards: 10;
@@ -8,38 +10,18 @@ html {
 
 }
 
-.card {
-    left: 90vw;
-
-
-    background-size:cover;
-    background-image: url("card.jpg");
-
-    box-shadow: 0 2px 4px 2px #000000;
-    position: absolute;
-
-    margin: auto;
-    transition: left .5s ,rotate .5s;
-
-
-    border-radius: calc(var(--CardSize) * 0.2vh);
-    width: calc(var(--CardSize) * 2vh);
-    height: calc(var(--CardSize) * 3vh);
-    left: calc(40vw + (((var(--CardIndex) - (var(--TotalCards)) / 2)) * 2vw + var(--LeftOffset) * var(--CardSize) * 2vh));
-    top: calc(60vh + (var(--TopOffset) / var(--TotalCards)* 0.1vh));
-
-    rotate: clamp(-20deg, calc((var(--CardIndex) - (var(--TotalCards)) / 2) * 1deg), 20deg);
-
-}
 .card-element{
-    border: black 0.6vw solid;
+    border: black calc(0.6vw * var(--Size)) solid;
     display: block;
-    border-radius: 1vw;
-    border-bottom-width: 2vw ;
+    border-radius: calc(1vw * var(--Size));
+    border-bottom-width:calc( 2vw* var(--Size)) ;
     width: fit-content;
-    height: 20vw;
+    height:calc( 20vw* var(--Size));
+    margin-top: calc( 13vw* var(--Size));
 
-
+    margin-right: 1vw;
+    background-color: #fff;
+    position: relative;
 
 }
 .card-element * {
@@ -50,9 +32,8 @@ html {
 .card-element * .element-container{
     display: inline-grid;
     background-color: #6A2A1B;
-    margin: auto;
-   padding : 0.2vw 0.3vw;
-    height: 20vw;
+    margin: calc(0.2vw * var(--Size)) calc(0.3vw * var(--Size));
+    height:calc( 20vw* var(--Size));
 
 
 }
@@ -60,11 +41,12 @@ html {
     background-color: #5c6166;
     border-color: var(--color);
     border-style: solid;
-    border-width: 0 0.2vw 0 0.2vw;
+    border-width: 0 calc(0.2vw * var(--Size)) 0 calc(0.2vw * var(--Size));
     object-fit: cover;
-    width: 13vw;
-    margin: 0 0.2vw;
-    height: 8vw;
+    width:calc( 13vw* var(--Size));
+    margin: 0 calc(0.2vw * var(--Size));
+    height:calc( 8vw* var(--Size));
+
 }
 .card-element * .title-cont{
     border-width: 0.2vw;
@@ -80,18 +62,19 @@ html {
 }
 .card-element * h1{
 
-    font-size: 1.3vw;
-    padding: 0 1vw 0 1vw;
+    font-size: calc( 1.3vw* var(--Size));
+    padding: 0 calc(1vw * var(--Size)) 0 calc(1vw * var(--Size));
     margin: 0 auto 0 auto;
 
  }
 .card-element * p{
-    font-size: 1vw;
+    font-size: calc( 1vw* var(--Size));
     border-color: var(--color);
     border-style: solid;
     border-width: 0 0.2vw 0 0.2vw;
     margin: 0 0.2vw;
     padding: 0.1vw;
     display: block;
-    height: 8.5vw;
+    height:calc( 8.5vw* var(--Size));
 }
+
