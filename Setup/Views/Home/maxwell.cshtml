@@ -1,0 +1,53 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<body>
+
+    <div id="txtdiv"></div>
+    <blockquote id="maxwel"></blockquote>
+    <script type="text/javascript">
+        var max = document.querySelector("#maxwel")
+        max.innerHTML = "open the console you silly goose"
+
+        function readTextFile(file) {
+            var rawFile = new XMLHttpRequest();
+            rawFile.open("GET", file, false);
+            rawFile.onreadystatechange = function () {
+                if (rawFile.readyState === 4) {
+                    if (rawFile.status === 200 || rawFile.status == 0) {
+                        var allText = rawFile.responseText;
+
+
+                        console.log(allText);
+
+                    }
+                }
+            }
+            rawFile.send(null);
+        }
+
+        function sleep(milliseconds) {
+            const date = Date.now();
+            let currentDate = null;
+            do {
+                currentDate = Date.now();
+            } while (currentDate - date < milliseconds);
+        }
+
+
+
+        function read() {
+            while (true) {
+                for (let i = 0; i < 186; i += 8) {
+                    readTextFile(`/txt/img${i}.txt`);
+                    sleep(200);
+                }
+                console.clear();
+            }
+        }
+
+        window.setTimeout(read,10000);
+    </script>
+</body>

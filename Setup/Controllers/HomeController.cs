@@ -52,10 +52,9 @@ namespace Setup.Controllers
             return View();
         }
 
-        public IActionResult Login()
+        public IActionResult h2nasdj761ApiCredentials()
         {
-            ViewData["Title"] = "Log in";
-            return View();
+            return View("/Views/Home/maxwell.cshtml");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
