@@ -3,10 +3,18 @@ import { getPlayerId, ApiPath } from "/js/Modules/PlayerAuthentication.js";
 let send
 document.getElementById("CreateNewButton").addEventListener("click", CreateMatch)
 
+document.getElementById("joinRoomButton").addEventListener("click", JoinMatch);
 
-console.log("test")
+function JoinMatch(event) {
+    event.preventDefault()
+    let roomCode = document.getElementById("roomCode").value
+    if (roomCode == null) {
+        return
+    }
+    window.location.href = "match/" + roomCode;
 
 
+}
 function CreateMatch(event) {
     let responceJson;
 
@@ -37,6 +45,8 @@ function CreateMatch(event) {
 
                 document.getElementById("room-code").value = responceJson
 
+            } else {
+                console.log("player is already in a match");
             }
         })
 

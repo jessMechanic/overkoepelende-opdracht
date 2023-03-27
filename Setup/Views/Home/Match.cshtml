@@ -2,3 +2,34 @@
 
 <script src="~/js/signalr/dist/browser/signalr.js"></script>
 <script src="~/js/Match.js"></script>
+<link rel="stylesheet" href="~/StyleSheets/Match.css">
+
+
+<script type="module" asp-append-version="true" src="~/js/Modules/PlayerAuthentication.js"></script>
+<img class="background-image" src="~/Assets/background.png">
+<script defer src="~/js/CardElement.js"></script>
+
+<player-info name="other" image="~/Assets/profileIcon.png"></player-info>
+    <section class="play_field field">
+
+        <div class="player_cards FieldCards">
+            
+        </div>
+        <div class="opponent_cards FieldCards">
+          
+        </div>
+    </section>
+
+</section>
+</div>
+
+<section class="card-holder"></section>
+<player-info class="player" name="you" image="~/Assets/profileIcon.png"></player-info>
+
+<div id="win-message">
+    <a class="title">you lost</a>
+    <div class="message">back to the <a href="Matches">matches</a> screen</div>
+
+</div>
+
+<partial name="_AuthenTokenpartial" />

@@ -16,6 +16,10 @@ overflow-y: hidden;
     left: 69vw;
     z-index: 20;
 }
+
+
+
+
 .player_cards{
     margin-left: 2.5vw;
 }
@@ -67,6 +71,28 @@ overflow-y: hidden;
     background-color: green;
 }
 
+#win-message{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    font-family: "Press Start 2P";
+    color: white;
+    background-image: url("../Assets/winMessage.png");
+    background-size: cover;
+    width: 13.6vw;
+    height: 10.3vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+#win-message .title {
+    margin: 0.5vw 1vw;
+    position: absolute;
+}
+#win-message div {
+    margin: 2.5vw 1vw;
+    font-size: 1vw;
+}
 .card-holder{
     background-image: url("../Assets/Cards_UI.png");
     background-size: cover;

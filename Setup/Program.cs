@@ -8,10 +8,7 @@ using Microsoft.Data.Sqlite;
 ;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = new SqliteConnectionStringBuilder()
-{
-    Mode = SqliteOpenMode.ReadWriteCreate
-}.ToString();
+var connectionString = builder.Configuration.GetConnectionString("CardGameConnectionSqlLite");
 builder.Services.AddDbContext<CardGameContext>(options => options.UseSqlite(connectionString));
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<CardGameContext>();

@@ -2,6 +2,7 @@
 
 
 using CardGame.Controllers.MatchFolder;
+using Microsoft.IdentityModel.Tokens;
 using System.Numerics;
 using System.Reflection;
 
@@ -9,8 +10,8 @@ namespace CardGame.Models.Matches
 {
     public class Match
     {
-        MatchPlayer player1 { get; set; }
-        MatchPlayer player2 { get; set; }
+        public MatchPlayer player1 { get; set; }
+        public MatchPlayer player2 { get; set; }
         List<Card> cards;
 
         public bool FirstPlayed;
@@ -46,12 +47,13 @@ namespace CardGame.Models.Matches
             MatchPlayer? player = getPlayer(playerId);
             if (player == null)
             {
+                Console.WriteLine("player doesnt exist // drawCard");
                 return -1;
             }
             Card card = CardGenerator.GenerateCard();
             int index = cards.Count;
-
-            card.Index = index - 1;
+            Console.WriteLine(index);
+            card.Index = index;
             cards.Add(card);
             player.Hand.Add(index);
             return cards.Count - 1;
@@ -63,16 +65,28 @@ namespace CardGame.Models.Matches
             MatchPlayer player = getPlayer(playerId);
             if (player == null) { Console.WriteLine("playeer doesnt excist"); return false; }
             if (player.Ready) { return false; }
-           if(player.Cards.Count > 5) { return false; }
             if (player.Hand.Contains(Card))
             {
                 player.Hand.Remove(Card);
-                player.Cards.Push(Card);    
-                FirstPlayed = !FirstPlayed;
+                player.Cards.Push(Card);
                 return true;
             }
-            Console.WriteLine("didnt contain in hand " + Card + player.Hand.Count);
-             return false;
+            Console.WriteLine("didnt contain in hand " + Card);
+            foreach (var item in player.Hand)
+            {
+                Console.WriteLine(item);
+            }
+            return false;
+        }
+        public bool checkReady()
+        {
+            if (player1.Ready && player2.Ready)
+            {
+                PlayRound();
+                return true;
+            }
+            Console.WriteLine($"player1 : {player1.Ready} && player2 : {player2.Ready}");
+            return false;
         }
         public void PlayRound()
         {
@@ -86,40 +100,42 @@ namespace CardGame.Models.Matches
         }
         public void PlaySide(MatchPlayer sender, MatchPlayer recipient)
         {
-            for (int i = 0; i < sender.Cards.Count; i++)
-            {
-                Card card = cards.ElementAt(sender.Cards.ElementAt(i));
-                if (card.Type == CardType.creature)
-                {
-                    for (int j = 0; j < recipient.Cards.Count; j++)
-                    {
-                        Card target = cards.ElementAt(recipient.Cards.ElementAt(j));
-                        if (target.Health > 0)
-                        {
-                            DealDamage(recipient.Id, card.Damage);
-                            break;
-                        }
-                    }
-                }
-                else
-                {
-                    break;
-                }
-            }
+            if (sender.Cards.IsNullOrEmpty()) { return; }
+            Card card = cards.ElementAt(sender.Cards.Peek());
+            DealDamage(recipient.Id, card.Damage);
+
+
         }
 
         public void RemoveDeadCards(MatchPlayer target)
         {
-            while (cards.ElementAt(target.Cards.Peek()).Health < 0) { target.Cards.Pop(); };
+            if (target.Cards.IsNullOrEmpty())
+            {
+                Console.WriteLine($"player {target.Id} has lost");
+                return;
+            }
+            if (cards.ElementAt(target.Cards.Peek()).Health < 0)
+            {
+                target.Cards.Pop();
+            }
         }
         public void DealDamage(Guid target, int damage)
         {
             MatchPlayer? player = getPlayer(target);
             if (player == null) return;
-
+            if (player.Cards.IsNullOrEmpty())
+            {
+                Console.WriteLine("player doesnt have cards");
+                return;
+            }
             if (player.Cards.Count > 0)
             {
-                cards.ElementAt(player.Cards.Peek()).Health -= damage;
+                Card card = cards.ElementAt(player.Cards.Peek());
+                if (card != null)
+                {
+
+                    card.Health -= damage;
+                }
             }
         }
 

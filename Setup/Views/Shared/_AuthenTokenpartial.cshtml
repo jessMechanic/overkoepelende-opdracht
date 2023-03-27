@@ -1,0 +1,14 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@if (SignInManager.IsSignedIn(User))
+{
+    <input type="hidden" id="LogedIn" value="true">
+    <input type="hidden" id="AuthToken" value="@UserManager.GetUserId(User)">
+}
+else
+{
+    <input type="hidden" id="LogedIn" value="false">
+    <input type="hidden" id="AuthToken" value="">
+}

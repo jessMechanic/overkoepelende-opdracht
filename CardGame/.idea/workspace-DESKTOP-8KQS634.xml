@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fec14389-733c-4d0a-9867-61b322d6360b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Cards_UI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Server Technology 2223 Week 6 testen les 11.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/playerProf_ui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/playingField_ui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/profileIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/Match.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StyleSheets/Match.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/match.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Areas/Identity/Data/CardGameContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Areas/Identity/Pages/Account/Manage/Email.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Areas/Identity/Pages/Account/Manage/Email.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Areas/Identity/Pages/Account/Manage/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Areas/Identity/Pages/Account/Manage/ManageNavPages.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Controllers/MatchFolder/ResponseJson/CardDefineResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Setup/Controllers/MatchFolder/ResponseJson/ClientMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatchJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/MatchJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StyleSheets/StyleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/StyleSheets/StyleSheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/CardElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/CardElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Areas/Identity/Data/IdentityDBContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Areas/Identity/Pages/Account/Login.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/CardGame.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/CardGame.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Controllers/MatchFolder/MatchController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/Controllers/MatchFolder/MatchController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Controllers/MatchFolder/MatchHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/Controllers/MatchFolder/MatchHub.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Controllers/MatchFolder/ResponseJson/IClientMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Controllers/MatchFolder/ResponseJson/IServerResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/Controllers/MatchFolder/ResponseJson/IServerResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Controllers/MatchFolder/ResponseJson/PlayCardMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/Controllers/MatchFolder/ResponseJson/PlayCardMessage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Migrations/20230308185231_CreateIdentitySchema.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Migrations/20230308185231_CreateIdentitySchema.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Migrations/IdentityDBContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Models/Matches/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/Models/Matches/Card.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Models/Matches/Match.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/Models/Matches/Match.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Models/Matches/MatchPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/Models/Matches/MatchPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Views/Home/Match.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/Views/Home/Match.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Views/Home/Matches.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/Views/Home/Matches.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/Views/Shared/_LoginPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/CardGame.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/CardGame.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/CardGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/CardGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/CardGame.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/CardGame.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/CardGame.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.DotNet.Scaffolding.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.DotNet.Scaffolding.Shared.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Sqlite.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Sqlite.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Embedded.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Embedded.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGeneration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/dotnet-aspnet-codegenerator-design.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/dotnet-aspnet-codegenerator-design.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/libman.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/bin/Debug/net7.0/libman.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/libman.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/libman.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/CardGame.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/CardGame.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/CardGame.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/CardGame.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/CardGame.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/CardGame.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/CardGame.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/CardGame.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/CardGame.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/CardGame.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/CardGame.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/CardGame.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/CardGame.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/CardGame.csproj.BuildWithSkipAnalyzers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/CardGame.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/CardGame.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/CardGame.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/CardGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/CardGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/CardGame.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/Setup.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/Setup.csproj.BuildWithSkipAnalyzers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/project.razor.vs.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/project.razor.vs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/ref/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/ref/CardGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/refint/CardGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/refint/CardGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/staticwebassets/msbuild.CardGame.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/Debug/net7.0/staticwebassets/msbuild.CardGame.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Setup/wwwroot/js/Match.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Setup/wwwroot/js/Match.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LT0PdKRylZI6qsCilsGSARd6qi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Stijn/OneDrive/opdracht&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Stijn\OneDrive\opdracht\CardGame\StyleSheets" />
+      <recent name="C:\Users\Stijn\OneDrive\CardGame\Pages" />
+      <recent name="C:\Users\Stijn\OneDrive\CardGame" />
+      <recent name="C:\Users\Stijn\OneDrive\CardGame\StyleSheets" />
+      <recent name="C:\Users\Stijn\WebstormProjects\CardGame\Assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Match.html">
+    <configuration name="Match.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CardGame/Pages/Match.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Matches.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CardGame/Pages/Matches.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Match.html" />
+        <item itemvalue="JavaScript Debug.Matches.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fec14389-733c-4d0a-9867-61b322d6360b" name="Changes" comment="" />
+      <created>1675879742235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675879742235</updated>
+      <workItem from="1675879743698" duration="12526000" />
+      <workItem from="1675973688036" duration="4960000" />
+      <workItem from="1676029042531" duration="975000" />
+      <workItem from="1676032599532" duration="71000" />
+      <workItem from="1676886263272" duration="1279000" />
+      <workItem from="1676907853925" duration="25000" />
+      <workItem from="1676910120214" duration="1944000" />
+      <workItem from="1677148781941" duration="2322000" />
+      <workItem from="1678201565891" duration="2717000" />
+      <workItem from="1678472636326" duration="8063000" />
+      <workItem from="1679405571071" duration="2794000" />
+      <workItem from="1679423290042" duration="6304000" />
+      <workItem from="1679485809547" duration="9725000" />
+      <workItem from="1679597164540" duration="272000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

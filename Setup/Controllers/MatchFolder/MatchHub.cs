@@ -13,6 +13,7 @@ namespace CardGame.Controllers.MatchFolder
 
     public class MatchHub : Hub
     {
+        
         private static HttpClient _client = new HttpClient();
 
         #region connection
@@ -32,7 +33,18 @@ namespace CardGame.Controllers.MatchFolder
                 await Clients.Caller.SendAsync("RoomConnectResult", true);
 
                 MatchController.Join(Guid.Parse(roomId), Guid.Parse(player));
-                MatchController.Get(Guid.Parse(roomId)).getPlayer(Guid.Parse(player)).ConnectionString = Context.ConnectionId;
+                Match match = MatchController.Get(Guid.Parse(roomId));
+                MatchPlayer matchPlayer = match.getPlayer(Guid.Parse(player));
+                matchPlayer.ConnectionString = Context.ConnectionId;
+                if(matchPlayer.Hand.Count > 0)
+                {
+                    foreach (int item in matchPlayer.Hand)
+                    {
+                        DefineCard(Guid.Parse(roomId), Context.ConnectionId, match.GetCard(item));
+                    }
+                }
+                
+                
                 return;
             }
             await Clients.Caller.SendAsync("RoomConnectResult", false);
@@ -56,8 +68,9 @@ namespace CardGame.Controllers.MatchFolder
         public async void DefineCardRoomWide(Guid roomId, Guid player, Card card, int position)
         {
             string json = JsonSerializer.Serialize(new CardDefineResponse(roomId, "DefineCardRoomWide", true, card, player, position));
-            await Clients.Group(roomId.ToString()).SendAsync("DefineCard", json);
+            await Clients.Group(roomId.ToString()).SendAsync("DefineCardRoomWide", json);
         }
+
 
 
         ///<summory>
@@ -67,9 +80,35 @@ namespace CardGame.Controllers.MatchFolder
 
         public async void DefineCard(Guid roomId, string ConnectionString, Card card)
         {
-            string json = JsonSerializer.Serialize(new CardDefineResponse(roomId, "DefineCardRoomWide", true, card, Guid.Empty, 0));
+            string json = JsonSerializer.Serialize(new CardDefineResponse(roomId, "DefineCard", true, card, Guid.Empty, 0));
             await Clients.Client(ConnectionString).SendAsync("DefineCard", card);
         }
+
+
+        public async void ReDefinePlayingField(Guid roomId)
+        {
+         Match match = MatchController.Get(roomId);
+            await Clients.Group(roomId.ToString()).SendAsync("Reset");
+
+            foreach (int item in  match.player1.Cards)
+            {
+                DefineCardRoomWide(roomId, match.player1.Id, match.GetCard(item), 0);
+               
+            }
+            
+          foreach (int item in match.player2.Cards)
+            {
+                DefineCardRoomWide(roomId, match.player2.Id, match.GetCard(item), 0);
+
+            }
+            match.player1.Ready=false; match.player2.Ready=false;
+        }
+
+        public async void AnnounceWinner(Guid roomId,Guid winner)
+        {
+            await Clients.Group(roomId.ToString()).SendAsync("AnnounceWinner",winner);
+        }
+
         #endregion GameResponses
 
         #region GameEndPoint
@@ -92,14 +131,16 @@ namespace CardGame.Controllers.MatchFolder
                 throw new Exception("not found somewhere was a miss sync");
             Console.WriteLine(json);
             //   if (match.AllowDraw) { 
-            if (match.getPlayer(clientMessage.PlayerId) != null)
+            MatchPlayer player = match.getPlayer(clientMessage.PlayerId);
+            if (player != null)
             {
-                if (match.getPlayer(clientMessage.PlayerId).Hand.Count < 6)
+                if (player.Hand.Count < 4)
                 {
                     int cardIndex = match.DrawCard(clientMessage.PlayerId);
-
+                       Console.WriteLine($"{cardIndex}");
 
                     Card? card = match.GetCard(cardIndex);
+                    card.Index = cardIndex;
                     if (card == null)
                     {
                         throw new Exception("card is null");
@@ -130,20 +171,29 @@ namespace CardGame.Controllers.MatchFolder
             }
             Match? match = getMatch(mes.RoomId);
             if (match == null) { return false; }
-            if (!match.PlayCard(mes.PlayerId, mes.Card))
+            if (!match.PlayCard(mes.PlayerId, mes.Card ))
             {
                 return false;
             }
-            Stack<int> playercards = match.getPlayer(mes.PlayerId).Cards;
-            DefineCardRoomWide(mes.RoomId, mes.PlayerId, match.GetCard(playercards.Peek()), playercards.Count);
+            MatchPlayer player = match.getPlayer(mes.PlayerId);
+            if (player.Ready) { Console.WriteLine("player is ready"); return false; }
+            Stack<int> playercards = player.Cards;
+            player.Ready= true;
+            
+            DefineCardRoomWide(mes.RoomId, mes.PlayerId, match.GetCard(playercards.Peek()), playercards.Count);   
+             if(match.checkReady())
+            {
+                ReDefinePlayingField(mes.RoomId);
+               
+            }
             return true;
 
 
         }
 
+       
 
-
-        public async Task Ready(Guid roomId, string json)
+        public async Task Ready(string json)
         {
           
             ClientMessage? clientMessage = JsonSerializer.Deserialize<ClientMessage>(json);
@@ -155,7 +205,16 @@ namespace CardGame.Controllers.MatchFolder
             if (match == null)
                 throw new Exception("not found somewhere was a miss sync");
             Console.WriteLine(json);
-            match.getPlayer(clientMessage.PlayerId).Ready = true;
+            MatchPlayer player = match.getPlayer(clientMessage.PlayerId);
+            if(player != null)
+            {
+
+                player.Ready = true;
+
+                if (match.checkReady())
+            {
+                ReDefinePlayingField(clientMessage.RoomId);
+            }  }
 
         }
         #endregion GameEndPoint

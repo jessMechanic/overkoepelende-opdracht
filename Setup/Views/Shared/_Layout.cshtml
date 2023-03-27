@@ -20,7 +20,7 @@
 <body>
     <div class="top-url-indicator">
         <img class="top-url-indicator__icon" src="~/Assets/icon.png">
-        <div class="top-url-indicator__url">CardsWithoutCommonSense</div>
+        <a class="top-url-indicator__url" href="/">CardsWithoutCommonSense</a>
 
         <div class="top-url-indicator__window-icons">
             <div class="top-url-indicator__window-icon" onclick="window.close();"> X </div>
@@ -30,10 +30,10 @@
     </div>
     <nav class="top-navigation-menu">
 
-        <div class="top-navigation-menu__option"> Matches</div>
+        <a class="top-navigation-menu__option" href="/home/matches"> Matches</a>
         <div class="top-navigation-menu__option"> Stats</div>
 
-        <div class="top-navigation-menu__option"> <partial name="_LoginPartial" /></div> <!-- replace with name or login depending on logged in -->
+         <partial name="_LoginPartial" /> <!-- replace with name or login depending on logged in -->
 
     </nav>
 

@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\Cards_UI.png",
+      "PackagePath": "staticwebassets\\Assets\\Cards_UI.png"
+    },
+    {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\ProfilePicture.png",
       "PackagePath": "staticwebassets\\Assets\\ProfilePicture.png"
     },
@@ -13,6 +17,18 @@
       "PackagePath": "staticwebassets\\Assets\\background.bmp"
     },
     {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\background.jpg",
+      "PackagePath": "staticwebassets\\Assets\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\background.png",
+      "PackagePath": "staticwebassets\\Assets\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\dwagon.webp",
+      "PackagePath": "staticwebassets\\Assets\\dwagon.webp"
+    },
+    {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\error.png",
       "PackagePath": "staticwebassets\\Assets\\error.png"
     },
@@ -23,6 +39,22 @@
     {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\icon.png",
       "PackagePath": "staticwebassets\\Assets\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\playerProf_ui.png",
+      "PackagePath": "staticwebassets\\Assets\\playerProf_ui.png"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\playingField_ui.png",
+      "PackagePath": "staticwebassets\\Assets\\playingField_ui.png"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\profileIcon.png",
+      "PackagePath": "staticwebassets\\Assets\\profileIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\StyleSheets\\Match.css",
+      "PackagePath": "staticwebassets\\StyleSheets\\Match.css"
     },
     {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\StyleSheets\\MatchesSheet.css",
@@ -43,6 +75,10 @@
     {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\CardElement.js",
+      "PackagePath": "staticwebassets\\js\\CardElement.js"
     },
     {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\js\\Match.js",
