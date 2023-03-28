@@ -12,10 +12,12 @@ namespace Setup.Controllers
         private const string PageViews = "PageViews";
         private readonly ILogger<HomeController> _logger;
         private UserManager<IdentityUser> _userManager;
-        public HomeController(ILogger<HomeController> logger, UserManager<IdentityUser> userManager)
+        private readonly SignInManager<IdentityUser> _signInManager;
+        public HomeController(ILogger<HomeController> logger, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> SignInManager)
         {
             _logger = logger;
             _userManager = userManager;
+            _signInManager = SignInManager;
         }
 
         public IActionResult Index()
@@ -28,17 +30,27 @@ namespace Setup.Controllers
         {
             UpdatePageViewCookie();
             return View();
+            
         }
 
         public IActionResult Matches()
         {
             UpdatePageViewCookie();
-            return View();
+            if (_signInManager.IsSignedIn(User))
+            {
+                return View();
+            }
+            return View("NotLoggedIn");
         }
         public IActionResult Match()
         {
             UpdatePageViewCookie();
-            return View();
+            if (_signInManager.IsSignedIn(User))
+            {
+                        return View();
+            }
+          return View("NotLoggedIn");
+       
         }
         public IActionResult contactpage()
         {

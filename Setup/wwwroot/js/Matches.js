@@ -2,19 +2,29 @@
 import { getPlayerId, ApiPath } from "/js/Modules/PlayerAuthentication.js";
 let send
 document.getElementById("CreateNewButton").addEventListener("click", CreateMatch)
-
-document.getElementById("joinRoomButton").addEventListener("click", JoinMatch);
+document.getElementById("copy").addEventListener("click", copy)
+document.getElementById("JoinMatch").addEventListener("click", JoinMatch)
+document.getElementById("joinRoomButton").addEventListener("click", JoinMatch)
 
 function JoinMatch(event) {
     event.preventDefault()
     let roomCode = document.getElementById("roomCode").value
-    if (roomCode == null) {
-        return
+    let newRoomCode = document.getElementById("room-code").value
+    if (roomCode != "") {
+        window.location.href = "match/" + roomCode;
     }
-    window.location.href = "match/" + roomCode;
+    if (newRoomCode != "") {
+        window.location.href = "match/" + newRoomCode;
+    } 
 
 
 }
+
+function copy() {
+    let copyText = document.getElementById("room-code");
+    navigator.clipboard.writeText(copyText.value);
+}
+
 function CreateMatch(event) {
     let responceJson;
 
@@ -39,15 +49,13 @@ function CreateMatch(event) {
             console.log("error")
         }).finally(() => {
             console.log(statusCode);
-            if (statusCode == 200) {
+           
                 document.getElementById("join-match-hidden").style.display = "block"
                 document.getElementById("join-match").style.display = "none"
 
                 document.getElementById("room-code").value = responceJson
 
-            } else {
-                console.log("player is already in a match");
-            }
+           
         })
 
     // make the join good

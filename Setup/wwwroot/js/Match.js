@@ -7,7 +7,8 @@ connection.on("ReceiveMessage", function (user, message) {});
 connection.on("joined", function (user, room) { console.log(`${user} joined room ${room}`);})
 connection.on("RoomConnectResult", function (result) { console.log(result ? "succes" : "failed"); })
 connection.on("DefineCard", function(result) {DefineCardHand(result);});
-connection.on("DefineCardRoomWide", function (result) {DefineCardPlayingField(result);});
+connection.on("DefineCardRoomWide", function (result) { DefineCardPlayingField(result); });
+connection.on("AnnounceWinner", function (result) { AnnounceWinner(result) })
 connection.on("Reset",function (){reset()})
 connection.start().then(function () {
     //checking if the match exists before joining it
@@ -16,7 +17,7 @@ connection.start().then(function () {
 }
 );
 function AnnounceWinner(player) {
-    let winMessage = document.querySelector("#win-message")
+    let winMessage = document.querySelector("#win-message").style.display="block"
     if (player == getPlayerId()) {
         winMessage.querySelector(".title").innerHTML = "you won :D"
     } else {
@@ -52,6 +53,11 @@ function DefineCardPlayingField(json){
 
     console.log(json);
 }
+
+async function giveUp() {
+    cardId = await connection.invoke('GiveUp', `{"RoomId":"${matchId}","PlayerId":"${getPlayerId()}"}`);
+}
+
 async function DrawCard(){
     cardId = await connection.invoke('DrawCard', `{"RoomId":"${matchId}","PlayerId":"${getPlayerId()}"}`)
 }

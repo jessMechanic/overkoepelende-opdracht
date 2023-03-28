@@ -153,6 +153,7 @@ body {
         }
 
 #win-message {
+    z-index:1000;
     display: none;
     position: fixed;
     top: 50%;

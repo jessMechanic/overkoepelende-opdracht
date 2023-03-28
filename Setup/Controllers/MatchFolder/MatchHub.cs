@@ -6,6 +6,7 @@ using System.Text.Json;
 using System.Net.Http.Json;
 using CardGame.Controllers.MatchFolder.ResponseJson;
 using Microsoft.CodeAnalysis.Elfie.Diagnostics;
+using System.Numerics;
 
 namespace CardGame.Controllers.MatchFolder
 {
@@ -36,6 +37,8 @@ namespace CardGame.Controllers.MatchFolder
                 Match match = MatchController.Get(Guid.Parse(roomId));
                 MatchPlayer matchPlayer = match.getPlayer(Guid.Parse(player));
                 matchPlayer.ConnectionString = Context.ConnectionId;
+               
+                
                 if(matchPlayer.Hand.Count > 0)
                 {
                     foreach (int item in matchPlayer.Hand)
@@ -43,8 +46,10 @@ namespace CardGame.Controllers.MatchFolder
                         DefineCard(Guid.Parse(roomId), Context.ConnectionId, match.GetCard(item));
                     }
                 }
-                
-                
+                ReDefinePlayingField(Guid.Parse( roomId));
+
+
+
                 return;
             }
             await Clients.Caller.SendAsync("RoomConnectResult", false);
@@ -57,7 +62,8 @@ namespace CardGame.Controllers.MatchFolder
         public async void AnouncePlayerJoined(string client, string roomId)
         {
             await Clients.Group(roomId).SendAsync("joined", client, roomId);
-        }
+          
+            }
         #endregion connection
 
         #region GameResponses
@@ -107,6 +113,12 @@ namespace CardGame.Controllers.MatchFolder
         public async void AnnounceWinner(Guid roomId,Guid winner)
         {
             await Clients.Group(roomId.ToString()).SendAsync("AnnounceWinner",winner);
+            HttpResponseMessage response = await _client.DeleteAsync(NetworkInfo.ApiPath + $"/Match?id={roomId}");
+            Console.WriteLine(response);
+            if (response.StatusCode == System.Net.HttpStatusCode.OK)
+            {
+                Console.WriteLine($"deleted : {roomId}");
+            }
         }
 
         #endregion GameResponses
@@ -117,7 +129,9 @@ namespace CardGame.Controllers.MatchFolder
         ///<summory>
         ///allows the ConnectionString to request a card
         ///will later be refactored to only be usable server side
-        ///</summory>
+        ///</summory
+        
+
         public async Task<int> DrawCard( string json)
         {
         
@@ -191,7 +205,33 @@ namespace CardGame.Controllers.MatchFolder
 
         }
 
-       
+           public async Task<bool> GiveUp(string json)
+        {
+            PlayCardMessage? mes = JsonSerializer.Deserialize<PlayCardMessage>(json);
+            Console.WriteLine(json);
+            if (mes == null)
+            {
+                Console.WriteLine("badJson");
+                return false;
+            }
+
+            HttpResponseMessage response = await _client.DeleteAsync(NetworkInfo.ApiPath + $"/Match?id={mes.RoomId}");
+            Console.WriteLine(response);
+            if (response.StatusCode == System.Net.HttpStatusCode.OK)
+            {
+                Console.WriteLine($"deleted : {mes.RoomId}");
+            }
+            Match match = MatchController.Get(mes.RoomId);
+            if (match == null) { return false; }
+            Guid player;
+            if(mes.PlayerId == match.player1.Id)
+            {
+                player = match.player2.Id;
+            }
+            else { player = match.player1.Id; }
+            AnnounceWinner(mes.RoomId, player);
+            return true;
+        }
 
         public async Task Ready(string json)
         {

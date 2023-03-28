@@ -24,14 +24,16 @@
 </div>
 
 <section class="card-holder">
-    <label for="newCard">draw Card</label>
-    <input type="button" name="newCard" id="newCard" onclick="drawCard()" />
+
+    <button  onclick="DrawCard()" >Draw Card</button>
+    <button onclick="ready()">Ready</button>
+    <button onclick="giveUp()">Give up</button>
 </section>
 <player-info class="player" name="you" image="~/Assets/profileIcon.png"></player-info>
 
 <div id="win-message">
     <a class="title">you lost</a>
-    <div class="message">back to the <a href="Matches">matches</a> screen</div>
+    <div class="message">back to the <a href="/home/Matches">matches</a> screen</div>
 
 </div>
 
