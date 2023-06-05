@@ -20,3 +20,4 @@ is a MVP of a online card game
 - de solution build of is anders aangegeven dat het niet
 - alles is geschreven volgens de regels en conventions
 - er zijn comments bij elke functie als je klaar ben met een topic
+- er worden geen gevoelige gegevens zoals session tokens in de url weergeven
