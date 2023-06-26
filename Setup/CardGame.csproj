@@ -4,6 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>a9c2abda-6068-49a8-9a57-5a073c593052</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,12 +24,12 @@
     <None Include="wwwroot\Assets\background.bmp" />
     <None Include="wwwroot\Assets\icon.png" />
     <None Include="wwwroot\Assets\ProfilePicture.png" />
-    <None Include="wwwroot\Assets\Sprite-0001.png" />
     <None Include="wwwroot\StyleSheets\ProfilePageSheet.css" />
     <None Include="wwwroot\StyleSheets\StyleSheet.css" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.4" />

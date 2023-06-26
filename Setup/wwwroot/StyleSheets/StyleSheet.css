@@ -105,6 +105,9 @@ body {
 }
 
 .top-navigation-menu__option {
+    text-decoration: none;
+    color: black;
+
     padding: 1vh 1vh 1vh 1vh !important;
     white-space: normal;
     background: #c0c0c0;
@@ -235,4 +238,78 @@ body {
 
 .show {
     display: block;
+}
+
+
+table {
+    border: 1px solid #2EA425;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+    table td, table.blueTable th {
+        border: 4px solid #AAAAAA;
+        padding: 3px 5px;
+    }
+
+    table tbody td {
+        font-size: 13px;
+    }
+
+    table tr:nth-child(even) {
+        background: #D0E4F5;
+    }
+
+    table thead {
+        background: #1F7505;
+        background: -moz-linear-gradient(top, #579743 0%, #35821e 66%, #1F7505 100%);
+        background: -webkit-linear-gradient(top, #579743 0%, #35821e 66%, #1F7505 100%);
+        background: linear-gradient(to bottom, #579743 0%, #35821e 66%, #1F7505 100%);
+        border-bottom: 2px solid #444444;
+    }
+
+        table thead th {
+            font-size: 15px;
+            font-weight: bold;
+            color: #FFFFFF;
+            text-align: center;
+            border-left: 2px solid #144114;
+        }
+
+            table thead th:first-child {
+                border-left: none;
+            }
+
+    table tfoot {
+        font-size: 14px;
+        font-weight: bold;
+        color: #FFFFFF;
+        background: #84A6F5;
+        background: -moz-linear-gradient(top, #a3bcf7 0%, #90aff6 66%, #84A6F5 100%);
+        background: -webkit-linear-gradient(top, #a3bcf7 0%, #90aff6 66%, #84A6F5 100%);
+        background: linear-gradient(to bottom, #a3bcf7 0%, #90aff6 66%, #84A6F5 100%);
+        border-top: 2px solid #444444;
+    }
+
+        table tfoot td {
+            font-size: 14px;
+        }
+
+        table tfoot .links {
+            text-align: right;
+        }
+
+            table tfoot .links a {
+                display: inline-block;
+                background: #1C6EA4;
+                color: #FFFFFF;
+                padding: 2px 8px;
+                border-radius: 5px;
+            }
+
+.TextBox {
+    position: fixed;
+    background: rgba(255,255,255,0.8);
 }

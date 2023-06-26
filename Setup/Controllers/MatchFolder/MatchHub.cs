@@ -96,13 +96,13 @@ namespace CardGame.Controllers.MatchFolder
          Match match = MatchController.Get(roomId);
             await Clients.Group(roomId.ToString()).SendAsync("Reset");
 
-            foreach (int item in  match.player1.Cards)
+            foreach (int item in  match.player1.CardsInPlay)
             {
                 DefineCardRoomWide(roomId, match.player1.Id, match.GetCard(item), 0);
                
             }
             
-          foreach (int item in match.player2.Cards)
+          foreach (int item in match.player2.CardsInPlay)
             {
                 DefineCardRoomWide(roomId, match.player2.Id, match.GetCard(item), 0);
 
@@ -191,7 +191,7 @@ namespace CardGame.Controllers.MatchFolder
             }
             MatchPlayer player = match.getPlayer(mes.PlayerId);
             if (player.Ready) { Console.WriteLine("player is ready"); return false; }
-            Stack<int> playercards = player.Cards;
+            Stack<int> playercards = player.CardsInPlay;
             player.Ready= true;
             
             DefineCardRoomWide(mes.RoomId, mes.PlayerId, match.GetCard(playercards.Peek()), playercards.Count);   

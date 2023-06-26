@@ -29,6 +29,16 @@ namespace CardGame.Models.Matches
         {
             return cards[card];
         }
+
+        public int GetCardsInPlayCount(Guid id)
+        {
+        return    getPlayer(id).CardsInPlay.Count;
+        }
+
+        public int GetHandCount(Guid id)
+        {
+            return getPlayer(id).Hand.Count;
+        }
         public void AddPlayer2(Guid id)
         {
             player2 = new(id);
@@ -68,7 +78,7 @@ namespace CardGame.Models.Matches
             if (player.Hand.Contains(Card))
             {
                 player.Hand.Remove(Card);
-                player.Cards.Push(Card);
+                player.CardsInPlay.Push(Card);
                 return true;
             }
             Console.WriteLine("didnt contain in hand " + Card);
@@ -100,8 +110,8 @@ namespace CardGame.Models.Matches
         }
         public void PlaySide(MatchPlayer sender, MatchPlayer recipient)
         {
-            if (sender.Cards.IsNullOrEmpty()) { return; }
-            Card card = cards.ElementAt(sender.Cards.Peek());
+            if (sender.CardsInPlay.IsNullOrEmpty()) { return; }
+            Card card = cards.ElementAt(sender.CardsInPlay.Peek());
             DealDamage(recipient.Id, card.Damage);
 
 
@@ -109,28 +119,28 @@ namespace CardGame.Models.Matches
 
         public void RemoveDeadCards(MatchPlayer target)
         {
-            if (target.Cards.IsNullOrEmpty())
+            if (target.CardsInPlay.IsNullOrEmpty())
             {
                 Console.WriteLine($"player {target.Id} has lost");
                 return;
             }
-            if (cards.ElementAt(target.Cards.Peek()).Health < 0)
+            if (cards.ElementAt(target.CardsInPlay.Peek()).Health < 0)
             {
-                target.Cards.Pop();
+                target.CardsInPlay.Pop();
             }
         }
         public void DealDamage(Guid target, int damage)
         {
             MatchPlayer? player = getPlayer(target);
             if (player == null) return;
-            if (player.Cards.IsNullOrEmpty())
+            if (player.CardsInPlay.IsNullOrEmpty())
             {
                 Console.WriteLine("player doesnt have cards");
                 return;
             }
-            if (player.Cards.Count > 0)
+            if (player.CardsInPlay.Count > 0)
             {
-                Card card = cards.ElementAt(player.Cards.Peek());
+                Card card = cards.ElementAt(player.CardsInPlay.Peek());
                 if (card != null)
                 {
 

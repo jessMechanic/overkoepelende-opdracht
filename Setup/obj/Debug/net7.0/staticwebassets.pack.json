@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets\\Assets\\ProfilePicture.png"
     },
     {
-      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\Sprite-0001.png",
-      "PackagePath": "staticwebassets\\Assets\\Sprite-0001.png"
-    },
-    {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\background.bmp",
       "PackagePath": "staticwebassets\\Assets\\background.bmp"
     },
@@ -49,8 +45,20 @@
       "PackagePath": "staticwebassets\\Assets\\playingField_ui.png"
     },
     {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\preview.png",
+      "PackagePath": "staticwebassets\\Assets\\preview.png"
+    },
+    {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\profileIcon.png",
       "PackagePath": "staticwebassets\\Assets\\profileIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\Assets\\winMessage.png",
+      "PackagePath": "staticwebassets\\Assets\\winMessage.png"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\StyleSheets\\IndexStyle.css",
+      "PackagePath": "staticwebassets\\StyleSheets\\IndexStyle.css"
     },
     {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\StyleSheets\\Match.css",
@@ -339,6 +347,754 @@
     {
       "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img0.txt",
+      "PackagePath": "staticwebassets\\txt\\img0.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img1.txt",
+      "PackagePath": "staticwebassets\\txt\\img1.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img10.txt",
+      "PackagePath": "staticwebassets\\txt\\img10.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img100.txt",
+      "PackagePath": "staticwebassets\\txt\\img100.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img101.txt",
+      "PackagePath": "staticwebassets\\txt\\img101.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img102.txt",
+      "PackagePath": "staticwebassets\\txt\\img102.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img103.txt",
+      "PackagePath": "staticwebassets\\txt\\img103.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img104.txt",
+      "PackagePath": "staticwebassets\\txt\\img104.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img105.txt",
+      "PackagePath": "staticwebassets\\txt\\img105.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img106.txt",
+      "PackagePath": "staticwebassets\\txt\\img106.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img107.txt",
+      "PackagePath": "staticwebassets\\txt\\img107.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img108.txt",
+      "PackagePath": "staticwebassets\\txt\\img108.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img109.txt",
+      "PackagePath": "staticwebassets\\txt\\img109.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img11.txt",
+      "PackagePath": "staticwebassets\\txt\\img11.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img110.txt",
+      "PackagePath": "staticwebassets\\txt\\img110.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img111.txt",
+      "PackagePath": "staticwebassets\\txt\\img111.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img112.txt",
+      "PackagePath": "staticwebassets\\txt\\img112.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img113.txt",
+      "PackagePath": "staticwebassets\\txt\\img113.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img114.txt",
+      "PackagePath": "staticwebassets\\txt\\img114.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img115.txt",
+      "PackagePath": "staticwebassets\\txt\\img115.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img116.txt",
+      "PackagePath": "staticwebassets\\txt\\img116.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img117.txt",
+      "PackagePath": "staticwebassets\\txt\\img117.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img118.txt",
+      "PackagePath": "staticwebassets\\txt\\img118.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img119.txt",
+      "PackagePath": "staticwebassets\\txt\\img119.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img12.txt",
+      "PackagePath": "staticwebassets\\txt\\img12.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img120.txt",
+      "PackagePath": "staticwebassets\\txt\\img120.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img121.txt",
+      "PackagePath": "staticwebassets\\txt\\img121.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img122.txt",
+      "PackagePath": "staticwebassets\\txt\\img122.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img123.txt",
+      "PackagePath": "staticwebassets\\txt\\img123.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img124.txt",
+      "PackagePath": "staticwebassets\\txt\\img124.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img125.txt",
+      "PackagePath": "staticwebassets\\txt\\img125.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img126.txt",
+      "PackagePath": "staticwebassets\\txt\\img126.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img127.txt",
+      "PackagePath": "staticwebassets\\txt\\img127.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img128.txt",
+      "PackagePath": "staticwebassets\\txt\\img128.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img129.txt",
+      "PackagePath": "staticwebassets\\txt\\img129.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img13.txt",
+      "PackagePath": "staticwebassets\\txt\\img13.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img130.txt",
+      "PackagePath": "staticwebassets\\txt\\img130.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img131.txt",
+      "PackagePath": "staticwebassets\\txt\\img131.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img132.txt",
+      "PackagePath": "staticwebassets\\txt\\img132.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img133.txt",
+      "PackagePath": "staticwebassets\\txt\\img133.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img134.txt",
+      "PackagePath": "staticwebassets\\txt\\img134.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img135.txt",
+      "PackagePath": "staticwebassets\\txt\\img135.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img136.txt",
+      "PackagePath": "staticwebassets\\txt\\img136.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img137.txt",
+      "PackagePath": "staticwebassets\\txt\\img137.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img138.txt",
+      "PackagePath": "staticwebassets\\txt\\img138.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img139.txt",
+      "PackagePath": "staticwebassets\\txt\\img139.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img14.txt",
+      "PackagePath": "staticwebassets\\txt\\img14.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img140.txt",
+      "PackagePath": "staticwebassets\\txt\\img140.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img141.txt",
+      "PackagePath": "staticwebassets\\txt\\img141.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img142.txt",
+      "PackagePath": "staticwebassets\\txt\\img142.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img143.txt",
+      "PackagePath": "staticwebassets\\txt\\img143.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img144.txt",
+      "PackagePath": "staticwebassets\\txt\\img144.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img145.txt",
+      "PackagePath": "staticwebassets\\txt\\img145.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img146.txt",
+      "PackagePath": "staticwebassets\\txt\\img146.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img147.txt",
+      "PackagePath": "staticwebassets\\txt\\img147.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img148.txt",
+      "PackagePath": "staticwebassets\\txt\\img148.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img149.txt",
+      "PackagePath": "staticwebassets\\txt\\img149.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img15.txt",
+      "PackagePath": "staticwebassets\\txt\\img15.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img150.txt",
+      "PackagePath": "staticwebassets\\txt\\img150.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img151.txt",
+      "PackagePath": "staticwebassets\\txt\\img151.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img152.txt",
+      "PackagePath": "staticwebassets\\txt\\img152.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img153.txt",
+      "PackagePath": "staticwebassets\\txt\\img153.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img154.txt",
+      "PackagePath": "staticwebassets\\txt\\img154.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img155.txt",
+      "PackagePath": "staticwebassets\\txt\\img155.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img156.txt",
+      "PackagePath": "staticwebassets\\txt\\img156.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img157.txt",
+      "PackagePath": "staticwebassets\\txt\\img157.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img158.txt",
+      "PackagePath": "staticwebassets\\txt\\img158.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img159.txt",
+      "PackagePath": "staticwebassets\\txt\\img159.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img16.txt",
+      "PackagePath": "staticwebassets\\txt\\img16.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img160.txt",
+      "PackagePath": "staticwebassets\\txt\\img160.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img161.txt",
+      "PackagePath": "staticwebassets\\txt\\img161.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img162.txt",
+      "PackagePath": "staticwebassets\\txt\\img162.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img163.txt",
+      "PackagePath": "staticwebassets\\txt\\img163.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img164.txt",
+      "PackagePath": "staticwebassets\\txt\\img164.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img165.txt",
+      "PackagePath": "staticwebassets\\txt\\img165.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img166.txt",
+      "PackagePath": "staticwebassets\\txt\\img166.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img167.txt",
+      "PackagePath": "staticwebassets\\txt\\img167.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img168.txt",
+      "PackagePath": "staticwebassets\\txt\\img168.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img169.txt",
+      "PackagePath": "staticwebassets\\txt\\img169.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img17.txt",
+      "PackagePath": "staticwebassets\\txt\\img17.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img170.txt",
+      "PackagePath": "staticwebassets\\txt\\img170.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img171.txt",
+      "PackagePath": "staticwebassets\\txt\\img171.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img172.txt",
+      "PackagePath": "staticwebassets\\txt\\img172.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img173.txt",
+      "PackagePath": "staticwebassets\\txt\\img173.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img174.txt",
+      "PackagePath": "staticwebassets\\txt\\img174.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img175.txt",
+      "PackagePath": "staticwebassets\\txt\\img175.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img176.txt",
+      "PackagePath": "staticwebassets\\txt\\img176.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img177.txt",
+      "PackagePath": "staticwebassets\\txt\\img177.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img178.txt",
+      "PackagePath": "staticwebassets\\txt\\img178.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img179.txt",
+      "PackagePath": "staticwebassets\\txt\\img179.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img18.txt",
+      "PackagePath": "staticwebassets\\txt\\img18.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img180.txt",
+      "PackagePath": "staticwebassets\\txt\\img180.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img181.txt",
+      "PackagePath": "staticwebassets\\txt\\img181.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img182.txt",
+      "PackagePath": "staticwebassets\\txt\\img182.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img183.txt",
+      "PackagePath": "staticwebassets\\txt\\img183.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img184.txt",
+      "PackagePath": "staticwebassets\\txt\\img184.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img185.txt",
+      "PackagePath": "staticwebassets\\txt\\img185.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img186.txt",
+      "PackagePath": "staticwebassets\\txt\\img186.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img19.txt",
+      "PackagePath": "staticwebassets\\txt\\img19.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img2.txt",
+      "PackagePath": "staticwebassets\\txt\\img2.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img20.txt",
+      "PackagePath": "staticwebassets\\txt\\img20.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img21.txt",
+      "PackagePath": "staticwebassets\\txt\\img21.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img22.txt",
+      "PackagePath": "staticwebassets\\txt\\img22.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img23.txt",
+      "PackagePath": "staticwebassets\\txt\\img23.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img24.txt",
+      "PackagePath": "staticwebassets\\txt\\img24.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img25.txt",
+      "PackagePath": "staticwebassets\\txt\\img25.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img26.txt",
+      "PackagePath": "staticwebassets\\txt\\img26.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img27.txt",
+      "PackagePath": "staticwebassets\\txt\\img27.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img28.txt",
+      "PackagePath": "staticwebassets\\txt\\img28.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img29.txt",
+      "PackagePath": "staticwebassets\\txt\\img29.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img3.txt",
+      "PackagePath": "staticwebassets\\txt\\img3.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img30.txt",
+      "PackagePath": "staticwebassets\\txt\\img30.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img31.txt",
+      "PackagePath": "staticwebassets\\txt\\img31.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img32.txt",
+      "PackagePath": "staticwebassets\\txt\\img32.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img33.txt",
+      "PackagePath": "staticwebassets\\txt\\img33.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img34.txt",
+      "PackagePath": "staticwebassets\\txt\\img34.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img35.txt",
+      "PackagePath": "staticwebassets\\txt\\img35.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img36.txt",
+      "PackagePath": "staticwebassets\\txt\\img36.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img37.txt",
+      "PackagePath": "staticwebassets\\txt\\img37.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img38.txt",
+      "PackagePath": "staticwebassets\\txt\\img38.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img39.txt",
+      "PackagePath": "staticwebassets\\txt\\img39.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img4.txt",
+      "PackagePath": "staticwebassets\\txt\\img4.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img40.txt",
+      "PackagePath": "staticwebassets\\txt\\img40.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img41.txt",
+      "PackagePath": "staticwebassets\\txt\\img41.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img42.txt",
+      "PackagePath": "staticwebassets\\txt\\img42.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img43.txt",
+      "PackagePath": "staticwebassets\\txt\\img43.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img44.txt",
+      "PackagePath": "staticwebassets\\txt\\img44.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img45.txt",
+      "PackagePath": "staticwebassets\\txt\\img45.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img46.txt",
+      "PackagePath": "staticwebassets\\txt\\img46.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img47.txt",
+      "PackagePath": "staticwebassets\\txt\\img47.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img48.txt",
+      "PackagePath": "staticwebassets\\txt\\img48.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img49.txt",
+      "PackagePath": "staticwebassets\\txt\\img49.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img5.txt",
+      "PackagePath": "staticwebassets\\txt\\img5.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img50.txt",
+      "PackagePath": "staticwebassets\\txt\\img50.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img51.txt",
+      "PackagePath": "staticwebassets\\txt\\img51.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img52.txt",
+      "PackagePath": "staticwebassets\\txt\\img52.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img53.txt",
+      "PackagePath": "staticwebassets\\txt\\img53.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img54.txt",
+      "PackagePath": "staticwebassets\\txt\\img54.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img55.txt",
+      "PackagePath": "staticwebassets\\txt\\img55.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img56.txt",
+      "PackagePath": "staticwebassets\\txt\\img56.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img57.txt",
+      "PackagePath": "staticwebassets\\txt\\img57.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img58.txt",
+      "PackagePath": "staticwebassets\\txt\\img58.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img59.txt",
+      "PackagePath": "staticwebassets\\txt\\img59.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img6.txt",
+      "PackagePath": "staticwebassets\\txt\\img6.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img60.txt",
+      "PackagePath": "staticwebassets\\txt\\img60.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img61.txt",
+      "PackagePath": "staticwebassets\\txt\\img61.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img62.txt",
+      "PackagePath": "staticwebassets\\txt\\img62.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img63.txt",
+      "PackagePath": "staticwebassets\\txt\\img63.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img64.txt",
+      "PackagePath": "staticwebassets\\txt\\img64.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img65.txt",
+      "PackagePath": "staticwebassets\\txt\\img65.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img66.txt",
+      "PackagePath": "staticwebassets\\txt\\img66.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img67.txt",
+      "PackagePath": "staticwebassets\\txt\\img67.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img68.txt",
+      "PackagePath": "staticwebassets\\txt\\img68.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img69.txt",
+      "PackagePath": "staticwebassets\\txt\\img69.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img7.txt",
+      "PackagePath": "staticwebassets\\txt\\img7.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img70.txt",
+      "PackagePath": "staticwebassets\\txt\\img70.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img71.txt",
+      "PackagePath": "staticwebassets\\txt\\img71.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img72.txt",
+      "PackagePath": "staticwebassets\\txt\\img72.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img73.txt",
+      "PackagePath": "staticwebassets\\txt\\img73.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img74.txt",
+      "PackagePath": "staticwebassets\\txt\\img74.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img75.txt",
+      "PackagePath": "staticwebassets\\txt\\img75.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img76.txt",
+      "PackagePath": "staticwebassets\\txt\\img76.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img77.txt",
+      "PackagePath": "staticwebassets\\txt\\img77.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img78.txt",
+      "PackagePath": "staticwebassets\\txt\\img78.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img79.txt",
+      "PackagePath": "staticwebassets\\txt\\img79.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img8.txt",
+      "PackagePath": "staticwebassets\\txt\\img8.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img80.txt",
+      "PackagePath": "staticwebassets\\txt\\img80.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img81.txt",
+      "PackagePath": "staticwebassets\\txt\\img81.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img82.txt",
+      "PackagePath": "staticwebassets\\txt\\img82.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img83.txt",
+      "PackagePath": "staticwebassets\\txt\\img83.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img84.txt",
+      "PackagePath": "staticwebassets\\txt\\img84.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img85.txt",
+      "PackagePath": "staticwebassets\\txt\\img85.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img86.txt",
+      "PackagePath": "staticwebassets\\txt\\img86.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img87.txt",
+      "PackagePath": "staticwebassets\\txt\\img87.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img88.txt",
+      "PackagePath": "staticwebassets\\txt\\img88.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img89.txt",
+      "PackagePath": "staticwebassets\\txt\\img89.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img9.txt",
+      "PackagePath": "staticwebassets\\txt\\img9.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img90.txt",
+      "PackagePath": "staticwebassets\\txt\\img90.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img91.txt",
+      "PackagePath": "staticwebassets\\txt\\img91.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img92.txt",
+      "PackagePath": "staticwebassets\\txt\\img92.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img93.txt",
+      "PackagePath": "staticwebassets\\txt\\img93.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img94.txt",
+      "PackagePath": "staticwebassets\\txt\\img94.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img95.txt",
+      "PackagePath": "staticwebassets\\txt\\img95.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img96.txt",
+      "PackagePath": "staticwebassets\\txt\\img96.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img97.txt",
+      "PackagePath": "staticwebassets\\txt\\img97.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img98.txt",
+      "PackagePath": "staticwebassets\\txt\\img98.txt"
+    },
+    {
+      "Id": "C:\\Users\\Stijn\\OneDrive\\opdracht\\Setup\\wwwroot\\txt\\img99.txt",
+      "PackagePath": "staticwebassets\\txt\\img99.txt"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CardGame.Microsoft.AspNetCore.StaticWebAssets.props",
